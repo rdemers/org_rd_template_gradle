@@ -1,0 +1,65 @@
+//
+// R. Demers; 2021.
+// Springboot application conventions.
+//
+plugins {
+    // Apply the common convention plugin for shared build configuration.
+    id "org.rd.std.java-common"
+
+    // Springboot development.
+    id "org.springframework.boot"
+    id "io.spring.dependency-management"
+}
+
+// Project description.
+description = """
+----------------------------------------------------------------
+Gradle example project.
+Project name: ${project.name}
+
+Put more details here ... 
+----------------------------------------------------------------
+"""
+
+// Dependencies : caution, WEB activated. We assume MSA.
+dependencies {
+    developmentOnly     "org.springframework.boot:spring-boot-devtools"
+
+    implementation      "org.springframework.boot:spring-boot-starter-actuator"
+    implementation      "org.springframework.boot:spring-boot-starter-web"
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+
+    testImplementation("org.springframework.boot:spring-boot-starter-test") {
+        exclude group: "org.junit.vintage:junit-vintage-engine"
+    }
+}
+
+// Springboot extension.
+configurations {
+    // Only need is you activate : implementation gradleApi().
+    // See org.rd.std.java-common.gradle for more information.
+    // all*.exclude module : "spring-boot-starter-logging"
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+// Layers description.
+bootJar {
+    layered {
+        enabled = true
+        application {
+            intoLayer("spring-boot-loader") {
+                include "org/springframework/boot/loader/**"
+            }
+            intoLayer("application")
+        }
+        dependencies {
+            intoLayer("snapshot-dependencies") {
+                include "*:*:*SNAPSHOT"
+            }
+            intoLayer("dependencies")
+        }
+        layerOrder = ["dependencies", "spring-boot-loader", "snapshot-dependencies", "application"]
+    }
+}

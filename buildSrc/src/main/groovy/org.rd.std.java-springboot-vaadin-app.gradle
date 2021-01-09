@@ -1,0 +1,39 @@
+//
+// R. Demers; 2021.
+// Springboot/vaadin application conventions.
+//
+plugins {
+    // Apply the common convention plugin for shared build configuration
+    // between library and application projects.
+    id "org.rd.std.java-common"
+    id "org.rd.std.java-springboot-app"
+}
+
+// Project description.
+description = """
+----------------------------------------------------------------
+Gradle example project.
+Project name: ${project.name}
+
+Put more details here ... 
+----------------------------------------------------------------
+"""
+
+// Variables extensions.
+ext {
+    // Dependencies.
+    vaadinVersion = "14.4.5"
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "com.vaadin:vaadin-bom:${vaadinVersion}"
+    }
+}
+
+dependencies {
+    implementation "com.vaadin:vaadin-spring-boot-starter"
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa"
+
+    runtimeOnly 'com.h2database:h2'
+}

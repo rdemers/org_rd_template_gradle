@@ -1,0 +1,10 @@
+//
+// R. Demers; 2021.
+//
+plugins {
+    id "org.rd.std.java-library"
+}
+
+dependencies {
+    api project(":java-list-lib")
+}

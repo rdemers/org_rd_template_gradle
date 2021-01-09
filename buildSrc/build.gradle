@@ -1,0 +1,11 @@
+//
+// R. Demers; 2021.
+//
+plugins {
+    // Support for groovy.
+    id "groovy-gradle-plugin"
+}
+
+repositories {
+    gradlePluginPortal()
+}

@@ -1,0 +1,6 @@
+//
+// R. Demers; 2021.
+//
+plugins {
+    id "org.rd.std.java-library"
+}

@@ -1,0 +1,15 @@
+//
+// R. Demers; 2021.
+//
+plugins {
+    id "org.rd.std.java-app"
+}
+
+dependencies {
+    implementation project(":java-utilities-lib")
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = "org.rd.template.gradle.app.Application"
+}

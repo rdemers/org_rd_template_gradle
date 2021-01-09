@@ -1,0 +1,3 @@
+org/rd/template/gradle/list/LinkedList.java
+ org.rd.template.gradle.list.LinkedList
+ org.rd.template.gradle.list.LinkedList$Node

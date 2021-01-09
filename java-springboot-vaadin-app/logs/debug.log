@@ -1,0 +1,13 @@
+2021-01-08 09:21:19 - Starting Application using Java 15.0.1 on RDemerss-MBP with PID 17518 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-08 09:21:19 - Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-08 09:21:19 - No active profile set, falling back to default profiles: default
+2021-01-08 09:21:19 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 09:21:19 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 09:21:20 - Tomcat initialized with port(s): 8080 (http)
+2021-01-08 09:21:20 - Root WebApplicationContext: initialization completed in 1567 ms
+2021-01-08 09:21:21 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 09:21:21 - LiveReload server is running on port 35729
+2021-01-08 09:21:21 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-08 09:21:21 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-08 09:21:21 - Started Application in 2.676 seconds (JVM running for 3.14)
+2021-01-08 09:21:21 - Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,8 @@
+org/rd/template/gradle/utilities/JoinUtils.java
+ org.rd.template.gradle.utilities.JoinUtils
+org/rd/template/gradle/utilities/SplitUtils.java
+ org.rd.template.gradle.utilities.SplitUtils
+org/rd/template/gradle/utilities/StringUtils.java
+ org.rd.template.gradle.utilities.StringUtils
+org/rd/template/gradle/utilities/MessageUtils.java
+ org.rd.template.gradle.utilities.MessageUtils

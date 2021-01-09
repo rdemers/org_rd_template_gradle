@@ -1,0 +1,122 @@
+//
+// R. Demers; 2021.
+// Common standards/conventions.
+//
+plugins {
+    // Java support.
+    id "java"
+
+    // IDE extension.
+    id "idea"
+    id "eclipse"
+}
+
+//
+ext {
+    // Apache/Maven (POM.XML generation).
+    groupId    = "org.rd.template.gradle" // groupId    - Project.getGroup()
+    artifactId = "common-unset"           // artifactId - Project.getName()
+    version    = "0.0.1-SNAPSHOT"         // version    - Project.getVersion()
+
+    // Dependencies.
+    slf4jVersion        = "1.7.30"
+    logbackVersion      = "1.2.3"
+    junitJupiterVersion = "5.7.0"
+}
+
+// Project description.
+description = """
+----------------------------------------------------------------
+Gradle example project.
+Project name: ${project.name}
+
+Put more details here ... 
+----------------------------------------------------------------
+"""
+
+// Java version.
+sourceCompatibility = "15"
+
+// Default pipeline.
+defaultTasks "clean", "build", "install"
+
+// Repositories.
+repositories {
+    // Others examples.
+    // jcenter()
+    // maven ("http://jcenter.bintray.com/")
+    mavenLocal()
+    mavenCentral()
+}
+
+// Dependencies.
+//
+// api                – used to make the dependencies explicit and expose them in the classpath.
+//                      For instance, when implementing a library to be transparent to the library consumers.
+// implementation     – required to compile the production source code and are purely internal.
+//                      They aren't exposed outside the package.
+// compileOnly        – used when they need to be declared only at compile-time, such as source-only annotations or annotation processors.
+//                      They don't appear in the runtime classpath or the test classpath.
+// compileOnlyApi     – used when required at compile time and when they need to be visible in the classpath for consumers.
+// runtimeOnly        – used to declare dependencies that are required only at runtime and aren't available at compile time.
+// testImplementation – required to compile tests.
+// testCompileOnly    – required only at test compile time.
+// testRuntimeOnly    – required only at test runtime.
+//
+// annotationProcessor - SpringBoot.
+//
+dependencies {
+
+    // Our logging mechanism.
+    implementation "org.slf4j:slf4j-api:${slf4jVersion}"
+    implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+    implementation "ch.qos.logback:logback-core:${logbackVersion}"
+
+    // Plugin or/and tasks development".
+    // Only if you develop a plugin.
+    // Warning : a conflict exit with Springboot for "logging interface".
+    // implementation gradleApi()
+
+    // Use JUnit Jupiter API for testing.
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}"
+
+    // Use JUnit Jupiter Engine for testing.
+    testRuntimeOnly    "org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}"
+
+    // long form : implementation group:'org.springframework.boot',
+    //                            name: 'spring-boot-starter',
+    //                            version: '2.3.4.RELEASE'
+    // runtimeOnly files('libs/lib1.jar', 'libs/lib2.jar')
+    // runtimeOnly fileTree('libs') { include '*.jar' }
+    // Let's say we want to declare that our project depends on the shared project :
+    // implementation project(':shared')
+}
+
+// Java JVM setup.
+tasks.withType(JavaCompile) {
+    options.compilerArgs += ["-Xlint:deprecation", "-Xdoclint:none", "-Xlint:none", "-nowarn"]
+}
+
+// Use junit platform for unit tests.
+test {
+    useJUnitPlatform()
+}
+
+// Helper : print some information about sources.
+//          Just a dummy example for a custom task.
+task printSourceSetInformation() {
+    doLast {
+        sourceSets.each
+                { srcSet ->
+                    println "-----------------------------------------------------------"
+                    println "[" + srcSet.name + "]"
+                    println "--> Source directories: " + srcSet.allJava.srcDirs
+                    println "--> Output directories: " + srcSet.output.classesDirs.files
+                    println "--> Compile classpath:"
+                    srcSet.compileClasspath.files.each {
+                        println "---->" + it.path
+                    }
+                    println "-----------------------------------------------------------"
+                }
+    }
+}
