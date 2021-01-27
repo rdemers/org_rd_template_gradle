@@ -22,7 +22,7 @@ Put more details here ...
 // Variables extensions.
 ext {
     // Dependencies.
-    vaadinVersion = "14.4.5"
+    vaadinVersion = "18.0.5"
 }
 
 dependencyManagement {

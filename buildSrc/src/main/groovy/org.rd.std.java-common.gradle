@@ -103,7 +103,23 @@ test {
 }
 
 // Helper : print some information about sources.
-//          Just a dummy example for a custom task.
+//          Just few examples for a custom task.
+
+task showProperties {
+    doLast {
+        println "-----------------------------------------------------------"
+        println "Project.name       : ${project.name}"
+        println "Project.groupId    : ${project.groupId}"
+        println "Project.artifactId : ${project.artifactId}"
+        println "Project.version    : ${project.version}"
+        println "-----------------------------------------------------------"
+        println "-- Plugins"
+        println "pluginSpringbootVersion          : ${pluginSpringbootVersion}"
+        println "pluginSpringManagementVersion    : ${pluginSpringManagementVersion}"
+        println "-----------------------------------------------------------"
+    }
+}
+
 task printSourceSetInformation() {
     doLast {
         sourceSets.each

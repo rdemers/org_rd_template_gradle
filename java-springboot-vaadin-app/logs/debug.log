@@ -1,13 +1,2058 @@
-2021-01-08 09:21:19 - Starting Application using Java 15.0.1 on RDemerss-MBP with PID 17518 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
-2021-01-08 09:21:19 - Running with Spring Boot v2.4.1, Spring v5.3.2
-2021-01-08 09:21:19 - No active profile set, falling back to default profiles: default
-2021-01-08 09:21:19 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-01-08 09:21:19 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-01-08 09:21:20 - Tomcat initialized with port(s): 8080 (http)
-2021-01-08 09:21:20 - Root WebApplicationContext: initialization completed in 1567 ms
-2021-01-08 09:21:21 - Initializing ExecutorService 'applicationTaskExecutor'
-2021-01-08 09:21:21 - LiveReload server is running on port 35729
-2021-01-08 09:21:21 - Exposing 2 endpoint(s) beneath base path '/actuator'
-2021-01-08 09:21:21 - Tomcat started on port(s): 8080 (http) with context path ''
-2021-01-08 09:21:21 - Started Application in 2.676 seconds (JVM running for 3.14)
-2021-01-08 09:21:21 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:26:48 - HV000001: Hibernate Validator 6.1.6.Final
+2021-01-25 19:26:48 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4349 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:26:48 - No active profile set, falling back to default profiles: default
+2021-01-25 19:26:48 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-25 19:26:48 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-25 19:26:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:26:49 - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:26:50 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:26:50 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:26:50 - Starting service [Tomcat]
+2021-01-25 19:26:50 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:26:50 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:26:50 - Root WebApplicationContext: initialization completed in 1969 ms
+2021-01-25 19:26:50 - HikariPool-1 - Starting...
+2021-01-25 19:26:51 - HikariPool-1 - Start completed.
+2021-01-25 19:26:51 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:94afdeab-4e95-4d5b-8eac-006f1a8e6ff0'
+2021-01-25 19:26:51 - Search for VaadinAppShell took 31 ms
+2021-01-25 19:26:51 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:26:51 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:26:55 - Search for subclasses and classes with annotations took 3890 ms
+2021-01-25 19:26:55 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-01-25 19:26:55 - Visited 98 classes. Took 17 ms.
+2021-01-25 19:26:55 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-01-25 19:26:55 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-01-25 19:26:55 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-01-25 19:26:55 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-01-25 19:26:55 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-01-25 19:26:55 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:26:55 - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-25 19:26:55 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-25 19:26:55 - There are no connect endpoints to generate.
+2021-01-25 19:26:55 - Removed 8 dependencies
+2021-01-25 19:26:55 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:26:55 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/package.json.
+2021-01-25 19:26:55 - Running `pnpm install` to resolve and optionally download frontend dependencies. This may take a moment, please stand by...
+2021-01-25 19:26:55 - Generated pnpmfile hook file: '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.js'
+2021-01-25 19:26:55 - installing pnpm version 4.4.0 locally
+2021-01-25 19:26:56 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:26:56 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:26:56 - LiveReload server is running on port 35729
+2021-01-25 19:26:57 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:26:57 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:26:57 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:26:57 - using '/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js' for frontend package installation
+2021-01-25 19:26:57 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:26:57 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-25 19:26:57 - Started Application in 9.699 seconds (JVM running for 10.382)
+2021-01-25 19:26:57 - Generating demo data
+2021-01-25 19:26:57 - ... generating 100 Person entities...
+2021-01-25 19:26:59 - Command `/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js --shamefully-hoist=true install` failed:
+Using hooks from: /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.jsreadPackage hook is declared. Manifests of dependencies might get overriddenERROR  Unexpected virtual store locationThe dependencies at "/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules" are currently symlinked from the virtual store directory at "/Users/rdemers/Downloads/my-project/node_modules/.pnpm".pnpm now wants to use the virtual store at "/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.pnpm" to link dependencies from the store.If you want to use the new virtual store location, reinstall your dependencies with "pnpm install --force".You may change the virtual store location by changing the value of the virtual-store-dir config.
+2021-01-25 19:26:59 - >>> Dependency ERROR. Check that all required dependencies are deployed in pnpm repositories.
+2021-01-25 19:27:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-25 19:27:18 - Initializing Servlet 'dispatcherServlet'
+2021-01-25 19:27:18 - Completed initialization in 1 ms
+2021-01-25 19:27:18 - 
+Vaadin is running in DEBUG MODE.
+When deploying application for production, remember to disable debug features. See more from https://vaadin.com/docs/
+Using Vaadin 15+ bootstrap mode.
+ 'index.html' is not found from './frontend/index.html'.
+Generating a default one in 'target/index.html'. Move it to the './frontend' folder if you want to customize it.
+ 'index.ts' is not found from './frontend/index.ts'.
+Generating a default one in 'target/index.ts'. Move it to the './frontend' folder if you want to customize it.
+2021-01-25 19:27:19 - The number of beans implementing 'I18NProvider' is 0. Cannot use Spring beans for I18N, falling back to the default behavior
+2021-01-25 19:28:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:28:02 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:28:02 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:28:02 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:28:02 - HikariPool-1 - Shutdown initiated...
+2021-01-25 19:28:02 - HikariPool-1 - Shutdown completed.
+2021-01-25 19:36:34 - HV000001: Hibernate Validator 6.1.6.Final
+2021-01-25 19:36:34 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4573 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:36:34 - No active profile set, falling back to default profiles: default
+2021-01-25 19:36:34 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-25 19:36:34 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-25 19:36:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:36:35 - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:36:35 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:36:35 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:36:35 - Starting service [Tomcat]
+2021-01-25 19:36:35 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:36:36 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:36:36 - Root WebApplicationContext: initialization completed in 1633 ms
+2021-01-25 19:36:36 - HikariPool-1 - Starting...
+2021-01-25 19:36:36 - HikariPool-1 - Start completed.
+2021-01-25 19:36:36 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b53d513c-e43a-4e3b-9f7b-14efffd2f3d6'
+2021-01-25 19:36:36 - Search for VaadinAppShell took 42 ms
+2021-01-25 19:36:36 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:36:36 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:36:40 - Search for subclasses and classes with annotations took 3757 ms
+2021-01-25 19:36:40 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-01-25 19:36:40 - Visited 98 classes. Took 17 ms.
+2021-01-25 19:36:40 - Added 5 default dependencies to main package.json
+2021-01-25 19:36:40 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/package.json.
+2021-01-25 19:36:40 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-01-25 19:36:40 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-01-25 19:36:40 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-01-25 19:36:40 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-01-25 19:36:40 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-01-25 19:36:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:36:40 - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-25 19:36:40 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-25 19:36:40 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:36:40 - There are no connect endpoints to generate.
+2021-01-25 19:36:40 - Running `pnpm install` to resolve and optionally download frontend dependencies. This may take a moment, please stand by...
+2021-01-25 19:36:40 - Generated pnpmfile hook file: '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.js'
+2021-01-25 19:36:40 - installing pnpm version 4.4.0 locally
+2021-01-25 19:36:41 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:36:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:36:41 - LiveReload server is running on port 35729
+2021-01-25 19:36:41 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:36:42 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:36:42 - using '/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js' for frontend package installation
+2021-01-25 19:36:42 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:36:42 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:36:42 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-25 19:36:42 - Started Application in 8.478 seconds (JVM running for 9.033)
+2021-01-25 19:36:42 - Generating demo data
+2021-01-25 19:36:42 - ... generating 100 Person entities...
+2021-01-25 19:36:43 - Command `/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js --shamefully-hoist=true install` failed:
+Using hooks from: /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.jsreadPackage hook is declared. Manifests of dependencies might get overriddenERROR  Unexpected virtual store locationThe dependencies at "/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules" are currently symlinked from the virtual store directory at "/Users/rdemers/Downloads/my-project/node_modules/.pnpm".pnpm now wants to use the virtual store at "/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.pnpm" to link dependencies from the store.If you want to use the new virtual store location, reinstall your dependencies with "pnpm install --force".You may change the virtual store location by changing the value of the virtual-store-dir config.
+2021-01-25 19:36:43 - >>> Dependency ERROR. Check that all required dependencies are deployed in pnpm repositories.
+2021-01-25 19:38:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:38:57 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:38:58 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:38:58 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:38:58 - HikariPool-1 - Shutdown initiated...
+2021-01-25 19:38:58 - HikariPool-1 - Shutdown completed.
+2021-01-25 19:39:16 - HV000001: Hibernate Validator 6.1.6.Final
+2021-01-25 19:39:16 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4671 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:39:16 - No active profile set, falling back to default profiles: default
+2021-01-25 19:39:16 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-25 19:39:16 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-25 19:39:17 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4573 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:39:17 - No active profile set, falling back to default profiles: default
+2021-01-25 19:39:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:39:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:39:17 - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:39:17 - Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:39:17 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:39:17 - Starting service [Tomcat]
+2021-01-25 19:39:17 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:39:17 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:39:17 - Root WebApplicationContext: initialization completed in 689 ms
+2021-01-25 19:39:17 - HikariPool-4 - Starting...
+2021-01-25 19:39:17 - HikariPool-4 - Start completed.
+2021-01-25 19:39:17 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:157c06b5-f351-4bf5-b66b-2239dadbcb4c'
+2021-01-25 19:39:17 - Search for VaadinAppShell took 26 ms
+2021-01-25 19:39:17 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:39:17 - Error when running `pnpm install`
+java.lang.InterruptedException: null
+	at java.base/java.lang.Object.wait(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:321)
+	at java.base/java.lang.ProcessImpl.waitFor(ProcessImpl.java:433)
+	at com.vaadin.flow.server.frontend.TaskRunNpmInstall.runNpmInstall(TaskRunNpmInstall.java:394)
+	at com.vaadin.flow.server.frontend.TaskRunNpmInstall.execute(TaskRunNpmInstall.java:120)
+	at com.vaadin.flow.server.frontend.NodeTasks.execute(NodeTasks.java:634)
+	at com.vaadin.flow.server.startup.DevModeInitializer.runNodeTasks(DevModeInitializer.java:471)
+	at com.vaadin.flow.server.startup.DevModeInitializer.lambda$initDevModeHandler$0(DevModeInitializer.java:381)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:39:17 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:39:18 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:39:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:39:18 - Starting service [Tomcat]
+2021-01-25 19:39:18 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:39:18 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:39:18 - Root WebApplicationContext: initialization completed in 2429 ms
+2021-01-25 19:39:18 - HikariPool-1 - Starting...
+2021-01-25 19:39:19 - HikariPool-1 - Start completed.
+2021-01-25 19:39:19 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0c5ac7d6-2b32-4a4f-97d4-f7414ff36854'
+2021-01-25 19:39:19 - Search for VaadinAppShell took 64 ms
+2021-01-25 19:39:19 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:39:19 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:39:22 - Search for subclasses and classes with annotations took 4355 ms
+2021-01-25 19:39:22 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-01-25 19:39:22 - Visited 98 classes. Took 13 ms.
+2021-01-25 19:39:22 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-01-25 19:39:22 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-01-25 19:39:22 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-01-25 19:39:22 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-01-25 19:39:22 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-01-25 19:39:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:39:22 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:39:22 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:39:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:39:22 - LiveReload server is running on port 35729
+2021-01-25 19:39:22 - There are no connect endpoints to generate.
+2021-01-25 19:39:22 - Running `pnpm install` to resolve and optionally download frontend dependencies. This may take a moment, please stand by...
+2021-01-25 19:39:22 - Generated pnpmfile hook file: '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.js'
+2021-01-25 19:39:22 - installing pnpm version 4.4.0 locally
+2021-01-25 19:39:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:39:22 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:39:22 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:39:23 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-25 19:39:23 - Started Application in 5.973 seconds (JVM running for 169.627)
+2021-01-25 19:39:23 - Generating demo data
+2021-01-25 19:39:23 - ... generating 100 Person entities...
+2021-01-25 19:39:23 - Waiting for node_modules/chance to become available
+2021-01-25 19:39:23 - using '/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js' for frontend package installation
+2021-01-25 19:39:24 - Search for subclasses and classes with annotations took 5104 ms
+2021-01-25 19:39:24 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-01-25 19:39:24 - Visited 98 classes. Took 21 ms.
+2021-01-25 19:39:24 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-01-25 19:39:24 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-01-25 19:39:24 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-01-25 19:39:24 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-01-25 19:39:24 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-01-25 19:39:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:39:24 - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-25 19:39:24 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-25 19:39:25 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:39:25 - There are no connect endpoints to generate.
+2021-01-25 19:39:25 - Running `pnpm install` to resolve and optionally download frontend dependencies. This may take a moment, please stand by...
+2021-01-25 19:39:25 - Generated pnpmfile hook file: '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.js'
+2021-01-25 19:39:25 - installing pnpm version 4.4.0 locally
+2021-01-25 19:39:25 - Command `/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js --shamefully-hoist=true install` failed:
+Using hooks from: /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.jsreadPackage hook is declared. Manifests of dependencies might get overriddenERROR  Unexpected virtual store locationThe dependencies at "/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules" are currently symlinked from the virtual store directory at "/Users/rdemers/Downloads/my-project/node_modules/.pnpm".pnpm now wants to use the virtual store at "/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.pnpm" to link dependencies from the store.If you want to use the new virtual store location, reinstall your dependencies with "pnpm install --force".You may change the virtual store location by changing the value of the virtual-store-dir config.
+2021-01-25 19:39:25 - >>> Dependency ERROR. Check that all required dependencies are deployed in pnpm repositories.
+2021-01-25 19:39:25 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:39:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:39:25 - using '/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js' for frontend package installation
+2021-01-25 19:39:26 - Unable to start LiveReload server
+2021-01-25 19:39:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:39:26 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:39:27 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:39:27 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:39:27 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-01-25 19:39:27 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:39:27 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:39:27 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:39:27 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:39:27 - HikariPool-1 - Shutdown initiated...
+2021-01-25 19:39:27 - HikariPool-1 - Shutdown completed.
+2021-01-25 19:39:27 - Pausing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:39:27 - Stopping service [Tomcat]
+2021-01-25 19:39:27 - The web application [ROOT] appears to have started a thread named [task-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.2/java.io.FileInputStream.readBytes(Native Method)
+ java.base@15.0.2/java.io.FileInputStream.read(FileInputStream.java:271)
+ java.base@15.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+ java.base@15.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+ java.base@15.0.2/java.io.InputStreamReader.read(InputStreamReader.java:181)
+ java.base@15.0.2/java.io.BufferedReader.fill(BufferedReader.java:161)
+ java.base@15.0.2/java.io.BufferedReader.readLine(BufferedReader.java:326)
+ java.base@15.0.2/java.io.BufferedReader.readLine(BufferedReader.java:392)
+ app//com.vaadin.flow.server.frontend.TaskRunNpmInstall.runNpmInstall(TaskRunNpmInstall.java:388)
+ app//com.vaadin.flow.server.frontend.TaskRunNpmInstall.execute(TaskRunNpmInstall.java:120)
+ app//com.vaadin.flow.server.frontend.NodeTasks.execute(NodeTasks.java:634)
+ app//com.vaadin.flow.server.startup.DevModeInitializer.runNodeTasks(DevModeInitializer.java:471)
+ app//com.vaadin.flow.server.startup.DevModeInitializer.lambda$initDevModeHandler$0(DevModeInitializer.java:381)
+ app//com.vaadin.flow.server.startup.DevModeInitializer$$Lambda$871/0x00000008010a6130.run(Unknown Source)
+ java.base@15.0.2/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.2/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:39:27 - Stopping ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:39:27 - Destroying ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:39:27 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-25 19:39:27 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-01-25 19:39:27 - Command `/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js --shamefully-hoist=true install` failed:
+Using hooks from: /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.jsreadPackage hook is declared. Manifests of dependencies might get overriddenERROR  Unexpected virtual store locationThe dependencies at "/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules" are currently symlinked from the virtual store directory at "/Users/rdemers/Downloads/my-project/node_modules/.pnpm".pnpm now wants to use the virtual store at "/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.pnpm" to link dependencies from the store.If you want to use the new virtual store location, reinstall your dependencies with "pnpm install --force".You may change the virtual store location by changing the value of the virtual-store-dir config.
+2021-01-25 19:39:27 - >>> Dependency ERROR. Check that all required dependencies are deployed in pnpm repositories.
+2021-01-25 19:40:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:40:32 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:40:33 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:40:33 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:40:33 - HikariPool-4 - Shutdown initiated...
+2021-01-25 19:40:33 - HikariPool-4 - Shutdown completed.
+2021-01-25 19:41:10 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4573 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:41:10 - No active profile set, falling back to default profiles: default
+2021-01-25 19:41:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:41:10 - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:41:10 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:41:10 - Starting service [Tomcat]
+2021-01-25 19:41:10 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:41:10 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:41:10 - Root WebApplicationContext: initialization completed in 397 ms
+2021-01-25 19:41:10 - HikariPool-7 - Starting...
+2021-01-25 19:41:10 - HikariPool-7 - Start completed.
+2021-01-25 19:41:10 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:6d90a703-1299-4ec7-9433-dd23eac1ed36'
+2021-01-25 19:41:10 - Search for VaadinAppShell took 19 ms
+2021-01-25 19:41:10 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:41:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:41:10 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:41:10 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:41:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:41:10 - LiveReload server is running on port 35729
+2021-01-25 19:41:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:41:10 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:41:10 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:41:11 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:41:11 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-25 19:41:11 - Started Application in 1.083 seconds (JVM running for 277.715)
+2021-01-25 19:41:11 - Generating demo data
+2021-01-25 19:41:11 - ... generating 100 Person entities...
+2021-01-25 19:41:24 - Frontend dependencies resolved successfully.
+2021-01-25 19:41:24 - Copying frontend resources from jar files ...
+2021-01-25 19:41:24 - Visited 14 resources. Took 169 ms.
+2021-01-25 19:41:24 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/./frontend' folder: 'styles/views/addressform/address-form-view.css', please update your annotations.
+2021-01-25 19:41:24 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/./frontend' folder: 'styles/views/creditcardform/credit-card-form-view.css', please update your annotations.
+2021-01-25 19:41:24 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.js
+2021-01-25 19:41:24 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.d.ts
+2021-01-25 19:41:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-25 19:41:25 - Initializing Servlet 'dispatcherServlet'
+2021-01-25 19:41:25 - Completed initialization in 2 ms
+2021-01-25 19:41:25 - Following issues were discovered with deployment configuration:
+
+WARNING: Vaadin is running in DEBUG MODE with debug features enabled, but with a prebuild frontend bundle (production ready).
+When deploying application for production, disable debug features by enabling production mode!
+See more from https://vaadin.com/docs/v14/flow/production/tutorial-production-mode-basic.html
+Using Vaadin 15+ bootstrap mode.
+ 'index.html' is not found from './frontend/index.html'.
+Generating a default one in 'target/index.html'. Move it to the './frontend' folder if you want to customize it.
+ 'index.ts' is not found from './frontend/index.ts'.
+Generating a default one in 'target/index.ts'. Move it to the './frontend' folder if you want to customize it.
+2021-01-25 19:41:27 - Cannot get the 'META-INF/VAADIN/index.html' from the classpath
+2021-01-25 19:41:27 - 
+java.io.IOException: Failed to load content of './frontend/index.html'. It is required to have './frontend/index.html' file when using client side bootstrapping.
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.getIndexHtmlDocument(IndexHtmlRequestHandler.java:241)
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.synchronizedHandleRequest(IndexHtmlRequestHandler.java:70)
+	at com.vaadin.flow.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40)
+	at com.vaadin.flow.server.VaadinService.handleRequest(VaadinService.java:1539)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:238)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:27 - Servlet.service() for servlet [springServlet] threw exception
+java.io.IOException: Failed to load content of './frontend/index.html'. It is required to have './frontend/index.html' file when using client side bootstrapping.
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.getIndexHtmlDocument(IndexHtmlRequestHandler.java:241)
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.synchronizedHandleRequest(IndexHtmlRequestHandler.java:70)
+	at com.vaadin.flow.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40)
+	at com.vaadin.flow.server.VaadinService.handleRequest(VaadinService.java:1539)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:238)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:27 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [com.vaadin.flow.server.ServiceException: java.io.IOException: Failed to load content of './frontend/index.html'. It is required to have './frontend/index.html' file when using client side bootstrapping.] with root cause
+java.io.IOException: Failed to load content of './frontend/index.html'. It is required to have './frontend/index.html' file when using client side bootstrapping.
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.getIndexHtmlDocument(IndexHtmlRequestHandler.java:241)
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.synchronizedHandleRequest(IndexHtmlRequestHandler.java:70)
+	at com.vaadin.flow.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40)
+	at com.vaadin.flow.server.VaadinService.handleRequest(VaadinService.java:1539)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:238)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:30 - Servlet.service() for servlet [springServlet] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:30 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:30 - Servlet.service() for servlet [springServlet] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:30 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:30 - Servlet.service() for servlet [springServlet] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:30 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:42 - Cannot get the 'META-INF/VAADIN/index.html' from the classpath
+2021-01-25 19:41:42 - 
+java.io.IOException: Failed to load content of './frontend/index.html'. It is required to have './frontend/index.html' file when using client side bootstrapping.
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.getIndexHtmlDocument(IndexHtmlRequestHandler.java:241)
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.synchronizedHandleRequest(IndexHtmlRequestHandler.java:70)
+	at com.vaadin.flow.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40)
+	at com.vaadin.flow.server.VaadinService.handleRequest(VaadinService.java:1539)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:238)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:42 - Servlet.service() for servlet [springServlet] threw exception
+java.io.IOException: Failed to load content of './frontend/index.html'. It is required to have './frontend/index.html' file when using client side bootstrapping.
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.getIndexHtmlDocument(IndexHtmlRequestHandler.java:241)
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.synchronizedHandleRequest(IndexHtmlRequestHandler.java:70)
+	at com.vaadin.flow.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40)
+	at com.vaadin.flow.server.VaadinService.handleRequest(VaadinService.java:1539)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:238)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:42 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [com.vaadin.flow.server.ServiceException: java.io.IOException: Failed to load content of './frontend/index.html'. It is required to have './frontend/index.html' file when using client side bootstrapping.] with root cause
+java.io.IOException: Failed to load content of './frontend/index.html'. It is required to have './frontend/index.html' file when using client side bootstrapping.
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.getIndexHtmlDocument(IndexHtmlRequestHandler.java:241)
+	at com.vaadin.flow.server.communication.IndexHtmlRequestHandler.synchronizedHandleRequest(IndexHtmlRequestHandler.java:70)
+	at com.vaadin.flow.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40)
+	at com.vaadin.flow.server.VaadinService.handleRequest(VaadinService.java:1539)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:238)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:42 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:41:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:41:42 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:41:42 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:41:42 - HikariPool-7 - Shutdown initiated...
+2021-01-25 19:41:42 - HikariPool-7 - Shutdown completed.
+2021-01-25 19:41:43 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4573 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:41:43 - No active profile set, falling back to default profiles: default
+2021-01-25 19:41:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:41:43 - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:41:43 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:41:43 - Starting service [Tomcat]
+2021-01-25 19:41:43 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:41:43 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:41:43 - Root WebApplicationContext: initialization completed in 380 ms
+2021-01-25 19:41:43 - HikariPool-8 - Starting...
+2021-01-25 19:41:43 - HikariPool-8 - Start completed.
+2021-01-25 19:41:43 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:716198c9-34c4-4a0b-8205-59ca83f91d0f'
+2021-01-25 19:41:43 - Search for VaadinAppShell took 18 ms
+2021-01-25 19:41:43 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:41:43 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:41:43 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:41:43 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:41:43 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:41:43 - LiveReload server is running on port 35729
+2021-01-25 19:41:43 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:41:43 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:41:43 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:41:43 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:41:43 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-25 19:41:43 - Started Application in 0.904 seconds (JVM running for 310.503)
+2021-01-25 19:41:43 - Generating demo data
+2021-01-25 19:41:43 - ... generating 100 Person entities...
+2021-01-25 19:41:44 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-25 19:41:44 - Initializing Servlet 'dispatcherServlet'
+2021-01-25 19:41:44 - Completed initialization in 2 ms
+2021-01-25 19:41:45 - Servlet.service() for servlet [springServlet] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:45 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:45 - Servlet.service() for servlet [springServlet] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:45 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:45 - Servlet.service() for servlet [springServlet] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:41:45 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:574)
+	at java.base/sun.nio.ch.Net.connect(Net.java:563)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1261)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1194)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1082)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1016)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1600)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1528)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.vaadin.flow.server.DevModeHandler.serveDevModeRequest(DevModeHandler.java:344)
+	at com.vaadin.flow.server.VaadinServlet.serveStaticOrWebJarRequest(VaadinServlet.java:272)
+	at com.vaadin.flow.server.VaadinServlet.service(VaadinServlet.java:225)
+	at com.vaadin.flow.spring.SpringServlet.service(SpringServlet.java:110)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.mvc.ServletForwardingController.handleRequestInternal(ServletForwardingController.java:141)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:42:02 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:42:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:42:02 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:42:02 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:42:02 - HikariPool-8 - Shutdown initiated...
+2021-01-25 19:42:02 - HikariPool-8 - Shutdown completed.
+2021-01-25 19:42:03 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4573 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:42:03 - No active profile set, falling back to default profiles: default
+2021-01-25 19:42:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:42:03 - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:42:03 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:42:03 - Starting service [Tomcat]
+2021-01-25 19:42:03 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:42:03 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:42:03 - Root WebApplicationContext: initialization completed in 804 ms
+2021-01-25 19:42:03 - HikariPool-9 - Starting...
+2021-01-25 19:42:03 - HikariPool-9 - Start completed.
+2021-01-25 19:42:03 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:84c56411-855a-4002-b96e-71532c3e096b'
+2021-01-25 19:42:03 - Search for VaadinAppShell took 27 ms
+2021-01-25 19:42:03 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:42:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:42:04 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:42:04 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:42:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:42:04 - LiveReload server is running on port 35729
+2021-01-25 19:42:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:42:04 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:42:04 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:42:04 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:42:04 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-25 19:42:04 - Started Application in 1.651 seconds (JVM running for 331.255)
+2021-01-25 19:42:04 - Generating demo data
+2021-01-25 19:42:04 - ... generating 100 Person entities...
+2021-01-25 19:42:17 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:42:17 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:42:17 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:42:17 - HV000001: Hibernate Validator 6.1.6.Final
+2021-01-25 19:42:17 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4840 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:42:17 - No active profile set, falling back to default profiles: default
+2021-01-25 19:42:17 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-25 19:42:17 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-25 19:42:17 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:42:17 - HikariPool-9 - Shutdown initiated...
+2021-01-25 19:42:17 - HikariPool-9 - Shutdown completed.
+2021-01-25 19:42:17 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4573 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:42:17 - No active profile set, falling back to default profiles: default
+2021-01-25 19:42:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:42:17 - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:42:18 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:42:18 - Starting service [Tomcat]
+2021-01-25 19:42:18 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:42:18 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:42:18 - Root WebApplicationContext: initialization completed in 571 ms
+2021-01-25 19:42:18 - HikariPool-10 - Starting...
+2021-01-25 19:42:18 - HikariPool-10 - Start completed.
+2021-01-25 19:42:18 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d297ab47-6f80-4fef-ab6d-4e03f0d4af71'
+2021-01-25 19:42:18 - Search for VaadinAppShell took 24 ms
+2021-01-25 19:42:18 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:42:18 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:42:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:42:18 - Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:42:19 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:42:19 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:42:19 - Starting service [Tomcat]
+2021-01-25 19:42:19 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:42:20 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:42:20 - Root WebApplicationContext: initialization completed in 2682 ms
+2021-01-25 19:42:20 - HikariPool-1 - Starting...
+2021-01-25 19:42:20 - HikariPool-1 - Start completed.
+2021-01-25 19:42:20 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cef180e7-2579-4fc1-8cfe-42863e2714e3'
+2021-01-25 19:42:20 - Search for VaadinAppShell took 63 ms
+2021-01-25 19:42:20 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:42:20 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:42:23 - Search for subclasses and classes with annotations took 5194 ms
+2021-01-25 19:42:23 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-01-25 19:42:23 - Visited 98 classes. Took 14 ms.
+2021-01-25 19:42:23 - Added 5 default dependencies to main package.json
+2021-01-25 19:42:23 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/package.json.
+2021-01-25 19:42:23 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-01-25 19:42:23 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-01-25 19:42:23 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-01-25 19:42:23 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-01-25 19:42:23 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-01-25 19:42:23 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:42:23 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:42:23 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:42:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:42:23 - LiveReload server is running on port 35729
+2021-01-25 19:42:23 - There are no connect endpoints to generate.
+2021-01-25 19:42:23 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/package.json.
+2021-01-25 19:42:23 - Running `pnpm install` to resolve and optionally download frontend dependencies. This may take a moment, please stand by...
+2021-01-25 19:42:23 - Generated pnpmfile hook file: '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.js'
+2021-01-25 19:42:23 - installing pnpm version 4.4.0 locally
+2021-01-25 19:42:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:42:24 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:42:24 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:42:24 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-25 19:42:24 - Started Application in 6.903 seconds (JVM running for 350.962)
+2021-01-25 19:42:24 - Generating demo data
+2021-01-25 19:42:24 - ... generating 100 Person entities...
+2021-01-25 19:42:25 - using '/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js' for frontend package installation
+2021-01-25 19:42:27 - Search for subclasses and classes with annotations took 6399 ms
+2021-01-25 19:42:27 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-01-25 19:42:27 - Visited 98 classes. Took 39 ms.
+2021-01-25 19:42:27 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-01-25 19:42:27 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-01-25 19:42:27 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-01-25 19:42:27 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-01-25 19:42:27 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-01-25 19:42:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:42:27 - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-25 19:42:27 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-25 19:42:28 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:42:28 - There are no connect endpoints to generate.
+2021-01-25 19:42:28 - Running `pnpm install` to resolve and optionally download frontend dependencies. This may take a moment, please stand by...
+2021-01-25 19:42:28 - Generated pnpmfile hook file: '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/pnpmfile.js'
+2021-01-25 19:42:28 - installing pnpm version 4.4.0 locally
+2021-01-25 19:42:29 - using '/usr/local/bin/node /Users/rdemers/.vaadin/node_modules/pnpm/bin/pnpm.js' for frontend package installation
+2021-01-25 19:42:29 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:42:29 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:42:29 - Unable to start LiveReload server
+2021-01-25 19:42:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:42:30 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:42:30 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:42:31 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:42:31 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-01-25 19:42:31 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:42:31 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:42:31 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:42:31 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:42:31 - HikariPool-1 - Shutdown initiated...
+2021-01-25 19:42:31 - HikariPool-1 - Shutdown completed.
+2021-01-25 19:42:31 - Pausing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:42:31 - Stopping service [Tomcat]
+2021-01-25 19:42:31 - The web application [ROOT] appears to have started a thread named [task-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.2/java.io.FileInputStream.readBytes(Native Method)
+ java.base@15.0.2/java.io.FileInputStream.read(FileInputStream.java:271)
+ java.base@15.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+ java.base@15.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+ java.base@15.0.2/java.io.InputStreamReader.read(InputStreamReader.java:181)
+ java.base@15.0.2/java.io.BufferedReader.fill(BufferedReader.java:161)
+ java.base@15.0.2/java.io.BufferedReader.readLine(BufferedReader.java:326)
+ java.base@15.0.2/java.io.BufferedReader.readLine(BufferedReader.java:392)
+ app//com.vaadin.flow.server.frontend.TaskRunNpmInstall.runNpmInstall(TaskRunNpmInstall.java:388)
+ app//com.vaadin.flow.server.frontend.TaskRunNpmInstall.execute(TaskRunNpmInstall.java:120)
+ app//com.vaadin.flow.server.frontend.NodeTasks.execute(NodeTasks.java:634)
+ app//com.vaadin.flow.server.startup.DevModeInitializer.runNodeTasks(DevModeInitializer.java:471)
+ app//com.vaadin.flow.server.startup.DevModeInitializer.lambda$initDevModeHandler$0(DevModeInitializer.java:381)
+ app//com.vaadin.flow.server.startup.DevModeInitializer$$Lambda$871/0x00000008010a6130.run(Unknown Source)
+ java.base@15.0.2/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.2/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:42:31 - Stopping ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:42:31 - Destroying ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:42:31 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-25 19:42:31 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-01-25 19:42:36 - Error when running `pnpm install`
+java.lang.InterruptedException: null
+	at java.base/java.lang.Object.wait(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:321)
+	at java.base/java.lang.ProcessImpl.waitFor(ProcessImpl.java:433)
+	at com.vaadin.flow.server.frontend.TaskRunNpmInstall.runNpmInstall(TaskRunNpmInstall.java:394)
+	at com.vaadin.flow.server.frontend.TaskRunNpmInstall.execute(TaskRunNpmInstall.java:120)
+	at com.vaadin.flow.server.frontend.NodeTasks.execute(NodeTasks.java:634)
+	at com.vaadin.flow.server.startup.DevModeInitializer.runNodeTasks(DevModeInitializer.java:471)
+	at com.vaadin.flow.server.startup.DevModeInitializer.lambda$initDevModeHandler$0(DevModeInitializer.java:381)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:42:45 - Frontend dependencies resolved successfully.
+2021-01-25 19:42:45 - Copying frontend resources from jar files ...
+2021-01-25 19:42:46 - Visited 14 resources. Took 255 ms.
+2021-01-25 19:42:46 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/creditcardform/credit-card-form-view.css', please update your annotations.
+2021-01-25 19:42:46 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/addressform/address-form-view.css', please update your annotations.
+2021-01-25 19:42:46 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.js
+2021-01-25 19:42:46 - No js modules to update '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.d.ts' file
+2021-01-25 19:42:55 - HV000001: Hibernate Validator 6.1.6.Final
+2021-01-25 19:42:55 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4876 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:42:55 - No active profile set, falling back to default profiles: default
+2021-01-25 19:42:56 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-25 19:42:56 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-25 19:42:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:42:57 - Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:42:58 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:42:58 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:42:58 - Starting service [Tomcat]
+2021-01-25 19:42:58 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:42:58 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:42:58 - Root WebApplicationContext: initialization completed in 2596 ms
+2021-01-25 19:42:58 - HikariPool-1 - Starting...
+2021-01-25 19:42:59 - HikariPool-1 - Start completed.
+2021-01-25 19:42:59 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cbd99bf9-4eaf-4cc8-bf96-89d8483ef3b7'
+2021-01-25 19:42:59 - Search for VaadinAppShell took 55 ms
+2021-01-25 19:42:59 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:42:59 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:43:04 - Search for subclasses and classes with annotations took 5354 ms
+2021-01-25 19:43:04 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-01-25 19:43:04 - Visited 98 classes. Took 31 ms.
+2021-01-25 19:43:04 - Added 5 default dependencies to main package.json
+2021-01-25 19:43:04 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/package.json.
+2021-01-25 19:43:04 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-01-25 19:43:04 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-01-25 19:43:04 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-01-25 19:43:04 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-01-25 19:43:04 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-01-25 19:43:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:43:04 - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-25 19:43:05 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-25 19:43:05 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:43:05 - There are no connect endpoints to generate.
+2021-01-25 19:43:05 - Skipping `pnpm install` because the frontend packages are already installed in the folder '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules' and the hash in the file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-01-25 19:43:05 - Copying frontend resources from jar files ...
+2021-01-25 19:43:05 - Visited 14 resources. Took 225 ms.
+2021-01-25 19:43:05 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/addressform/address-form-view.css', please update your annotations.
+2021-01-25 19:43:05 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/creditcardform/credit-card-form-view.css', please update your annotations.
+2021-01-25 19:43:05 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.js
+2021-01-25 19:43:05 - No js modules to update '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.d.ts' file
+2021-01-25 19:43:05 - Starting webpack-dev-server
+2021-01-25 19:43:06 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:43:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:43:06 - Unable to start LiveReload server
+2021-01-25 19:43:06 - Running webpack to compile frontend resources. This may take a moment, please stand by...
+2021-01-25 19:43:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:43:07 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:43:07 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:43:07 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:43:07 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-01-25 19:43:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:43:07 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:43:08 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:43:08 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:43:08 - HikariPool-1 - Shutdown initiated...
+2021-01-25 19:43:08 - HikariPool-1 - Shutdown completed.
+2021-01-25 19:43:08 - Pausing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:43:08 - Stopping service [Tomcat]
+2021-01-25 19:43:08 - The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.2/sun.nio.ch.Net.accept(Native Method)
+ java.base@15.0.2/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:755)
+ java.base@15.0.2/java.net.ServerSocket.implAccept(ServerSocket.java:684)
+ java.base@15.0.2/java.net.ServerSocket.platformImplAccept(ServerSocket.java:650)
+ java.base@15.0.2/java.net.ServerSocket.implAccept(ServerSocket.java:626)
+ java.base@15.0.2/java.net.ServerSocket.implAccept(ServerSocket.java:583)
+ java.base@15.0.2/java.net.ServerSocket.accept(ServerSocket.java:540)
+ app//com.vaadin.flow.server.DevServerWatchDog$WatchDogServer.run(DevServerWatchDog.java:58)
+ java.base@15.0.2/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:43:08 - The web application [ROOT] appears to have started a thread named [webpack] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.2/java.io.FileInputStream.readBytes(Native Method)
+ java.base@15.0.2/java.io.FileInputStream.read(FileInputStream.java:271)
+ java.base@15.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+ java.base@15.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.read0(StreamDecoder.java:137)
+ java.base@15.0.2/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:122)
+ java.base@15.0.2/java.io.InputStreamReader.read(InputStreamReader.java:164)
+ app//com.vaadin.flow.server.DevModeHandler.readLinesLoop(DevModeHandler.java:450)
+ app//com.vaadin.flow.server.DevModeHandler.lambda$logStream$2(DevModeHandler.java:426)
+ app//com.vaadin.flow.server.DevModeHandler$$Lambda$1442/0x00000008013f37e8.run(Unknown Source)
+ java.base@15.0.2/java.lang.Thread.run(Thread.java:832)
+2021-01-25 19:43:08 - Stopping ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:43:08 - Destroying ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:43:08 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-25 19:43:08 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-01-25 19:43:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:43:24 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:43:25 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:43:25 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:43:25 - HikariPool-10 - Shutdown initiated...
+2021-01-25 19:43:25 - HikariPool-10 - Shutdown completed.
+2021-01-25 19:43:41 - HV000001: Hibernate Validator 6.1.6.Final
+2021-01-25 19:43:41 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 4954 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-01-25 19:43:41 - No active profile set, falling back to default profiles: default
+2021-01-25 19:43:41 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-25 19:43:41 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-25 19:43:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-25 19:43:42 - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2021-01-25 19:43:42 - Tomcat initialized with port(s): 8080 (http)
+2021-01-25 19:43:42 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:43:42 - Starting service [Tomcat]
+2021-01-25 19:43:42 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-25 19:43:42 - Initializing Spring embedded WebApplicationContext
+2021-01-25 19:43:42 - Root WebApplicationContext: initialization completed in 1575 ms
+2021-01-25 19:43:42 - HikariPool-1 - Starting...
+2021-01-25 19:43:42 - HikariPool-1 - Start completed.
+2021-01-25 19:43:43 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:86412591-a134-4ee7-87c4-31ee1628b343'
+2021-01-25 19:43:43 - Search for VaadinAppShell took 45 ms
+2021-01-25 19:43:43 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-01-25 19:43:43 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:43:47 - Search for subclasses and classes with annotations took 3780 ms
+2021-01-25 19:43:47 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-01-25 19:43:47 - Visited 98 classes. Took 18 ms.
+2021-01-25 19:43:47 - Added 5 default dependencies to main package.json
+2021-01-25 19:43:47 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/package.json.
+2021-01-25 19:43:47 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-01-25 19:43:47 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-01-25 19:43:47 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-01-25 19:43:47 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-01-25 19:43:47 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-01-25 19:43:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-25 19:43:47 - HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-25 19:43:47 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-25 19:43:47 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-25 19:43:47 - There are no connect endpoints to generate.
+2021-01-25 19:43:47 - Skipping `pnpm install` because the frontend packages are already installed in the folder '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules' and the hash in the file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-01-25 19:43:47 - Copying frontend resources from jar files ...
+2021-01-25 19:43:47 - Visited 14 resources. Took 173 ms.
+2021-01-25 19:43:47 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/creditcardform/credit-card-form-view.css', please update your annotations.
+2021-01-25 19:43:47 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/addressform/address-form-view.css', please update your annotations.
+2021-01-25 19:43:47 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.js
+2021-01-25 19:43:47 - No js modules to update '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.d.ts' file
+2021-01-25 19:43:47 - Starting webpack-dev-server
+2021-01-25 19:43:48 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 19:43:48 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:43:48 - LiveReload server is running on port 35729
+2021-01-25 19:43:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-25 19:43:48 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-01-25 19:43:48 - Running webpack to compile frontend resources. This may take a moment, please stand by...
+2021-01-25 19:43:48 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:43:48 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-25 19:43:48 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-25 19:43:49 - Started Application in 8.38 seconds (JVM running for 8.923)
+2021-01-25 19:43:49 - Generating demo data
+2021-01-25 19:43:49 - ... generating 100 Person entities...
+2021-01-25 19:43:57 - Started webpack-dev-server. Time: 9988ms
+2021-01-25 19:44:15 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-25 19:44:15 - Initializing Servlet 'dispatcherServlet'
+2021-01-25 19:44:15 - Completed initialization in 1 ms
+2021-01-25 19:44:15 - 
+Vaadin is running in DEBUG MODE.
+When deploying application for production, remember to disable debug features. See more from https://vaadin.com/docs/
+Using Vaadin 15+ bootstrap mode.
+ 'index.html' is not found from '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend/index.html'.
+Generating a default one in 'target/index.html'. Move it to the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder if you want to customize it.
+ 'index.ts' is not found from '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend/index.ts'.
+Generating a default one in 'target/index.ts'. Move it to the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder if you want to customize it.
+2021-01-25 19:44:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-25 19:44:32 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-01-25 19:44:32 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-25 19:44:32 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:44:32 - HikariPool-1 - Shutdown initiated...
+2021-01-25 19:44:32 - HikariPool-1 - Shutdown completed.

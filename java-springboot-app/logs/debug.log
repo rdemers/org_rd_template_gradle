@@ -38,3 +38,100 @@
 2021-01-09 12:55:52 - Started Application in 2.064 seconds (JVM running for 2.492)
 2021-01-09 12:55:52 - Hello World!
 2021-01-09 12:55:58 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-24 08:08:59 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 68026 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-24 08:08:59 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-24 08:08:59 - No active profile set, falling back to default profiles: default
+2021-01-24 08:08:59 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-24 08:08:59 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-24 08:09:01 - Tomcat initialized with port(s): 8080 (http)
+2021-01-24 08:09:01 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-24 08:09:01 - Starting service [Tomcat]
+2021-01-24 08:09:01 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-24 08:09:01 - Initializing Spring embedded WebApplicationContext
+2021-01-24 08:09:01 - Root WebApplicationContext: initialization completed in 1637 ms
+2021-01-24 08:09:01 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 08:09:01 - LiveReload server is running on port 35729
+2021-01-24 08:09:01 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-24 08:09:01 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-24 08:09:01 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-24 08:09:01 - Started Application in 2.927 seconds (JVM running for 3.536)
+2021-01-24 08:09:01 - Hello World!
+2021-01-24 08:09:13 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-24 09:45:58 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 68450 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-24 09:45:58 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-24 09:45:58 - No active profile set, falling back to default profiles: default
+2021-01-24 09:45:58 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-24 09:45:58 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-24 09:45:59 - Tomcat initialized with port(s): 8080 (http)
+2021-01-24 09:45:59 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-24 09:45:59 - Starting service [Tomcat]
+2021-01-24 09:45:59 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-24 09:45:59 - Initializing Spring embedded WebApplicationContext
+2021-01-24 09:45:59 - Root WebApplicationContext: initialization completed in 1306 ms
+2021-01-24 09:45:59 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 09:46:00 - LiveReload server is running on port 35729
+2021-01-24 09:46:00 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-24 09:46:00 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-24 09:46:00 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-24 09:46:00 - Started Application in 2.545 seconds (JVM running for 3.145)
+2021-01-24 09:46:00 - Hello World!
+2021-01-24 09:46:04 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-24 09:51:23 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 68542 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-24 09:51:23 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-24 09:51:23 - No active profile set, falling back to default profiles: default
+2021-01-24 09:51:23 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-24 09:51:23 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-24 09:51:24 - Tomcat initialized with port(s): 8080 (http)
+2021-01-24 09:51:24 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-24 09:51:24 - Starting service [Tomcat]
+2021-01-24 09:51:24 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-24 09:51:24 - Initializing Spring embedded WebApplicationContext
+2021-01-24 09:51:24 - Root WebApplicationContext: initialization completed in 1040 ms
+2021-01-24 09:51:24 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 09:51:25 - LiveReload server is running on port 35729
+2021-01-24 09:51:25 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-24 09:51:25 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-24 09:51:25 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-24 09:51:25 - Started Application in 1.992 seconds (JVM running for 2.418)
+2021-01-24 09:51:25 - Hello World!
+2021-01-24 09:51:30 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-24 10:26:23 - Starting ApplicationTests using Java 15.0.2 on RDemerss-MBP with PID 69092 (started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-24 10:26:23 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-24 10:26:23 - No active profile set, falling back to default profiles: default
+2021-01-24 10:26:25 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 10:26:25 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-24 10:26:25 - Started ApplicationTests in 2.406 seconds (JVM running for 3.52)
+2021-01-24 10:26:25 - Hello World!
+2021-01-24 10:26:26 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-24 10:26:49 - Starting ApplicationTests using Java 15.0.2 on RDemerss-MBP with PID 69116 (started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-24 10:26:49 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-24 10:26:49 - No active profile set, falling back to default profiles: default
+2021-01-24 10:26:50 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 10:26:50 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-24 10:26:50 - Started ApplicationTests in 2.155 seconds (JVM running for 3.213)
+2021-01-24 10:26:51 - Hello World!
+2021-01-24 10:26:51 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-24 10:28:32 - Starting ApplicationTests using Java 15.0.2 on RDemerss-MBP with PID 69187 (started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-24 10:28:32 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-24 10:28:32 - No active profile set, falling back to default profiles: default
+2021-01-24 10:28:33 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 10:28:33 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-24 10:28:33 - Started ApplicationTests in 2.216 seconds (JVM running for 3.333)
+2021-01-24 10:28:33 - Hello World!
+2021-01-24 10:28:34 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:10:40 - Starting ApplicationTests using Java 15.0.2 on RDemerss-MBP with PID 4034 (started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-25 19:10:40 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-25 19:10:40 - No active profile set, falling back to default profiles: default
+2021-01-25 19:10:41 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-25 19:10:42 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-25 19:10:42 - Started ApplicationTests in 2.384 seconds (JVM running for 3.606)
+2021-01-25 19:10:42 - Hello World!
+2021-01-25 19:10:42 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-26 20:00:21 - Starting ApplicationTests using Java 15.0.2 on RDemerss-MBP with PID 6504 (started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-26 20:00:21 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-26 20:00:21 - No active profile set, falling back to default profiles: default
+2021-01-26 20:00:22 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-26 20:00:23 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-26 20:00:23 - Started ApplicationTests in 2.295 seconds (JVM running for 3.372)
+2021-01-26 20:00:23 - Hello World!
+2021-01-26 20:00:23 - Shutting down ExecutorService 'applicationTaskExecutor'

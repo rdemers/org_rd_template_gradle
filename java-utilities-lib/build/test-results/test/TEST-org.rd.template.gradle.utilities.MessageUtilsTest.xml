@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.rd.template.gradle.utilities.MessageUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-27T01:00:43" hostname="RDemerss-MBP" time="0.025">
+  <properties/>
+  <testcase name="testGetMessage()" classname="org.rd.template.gradle.utilities.MessageUtilsTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

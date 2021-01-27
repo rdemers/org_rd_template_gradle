@@ -1,0 +1,2 @@
+org/rd/template/gradle/utilities/MessageUtilsTest.java
+ org.rd.template.gradle.utilities.MessageUtilsTest
