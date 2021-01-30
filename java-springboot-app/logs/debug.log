@@ -135,3 +135,133 @@
 2021-01-26 20:00:23 - Started ApplicationTests in 2.295 seconds (JVM running for 3.372)
 2021-01-26 20:00:23 - Hello World!
 2021-01-26 20:00:23 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:56:08 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 25631 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-27 19:56:08 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:56:08 - No active profile set, falling back to default profiles: default
+2021-01-27 19:56:08 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:56:08 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:56:10 - Tomcat initialized with port(s): 8080 (http)
+2021-01-27 19:56:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:56:10 - Starting service [Tomcat]
+2021-01-27 19:56:10 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 19:56:10 - Initializing Spring embedded WebApplicationContext
+2021-01-27 19:56:10 - Root WebApplicationContext: initialization completed in 1238 ms
+2021-01-27 19:56:10 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:56:10 - LiveReload server is running on port 35729
+2021-01-27 19:56:10 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-27 19:56:10 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:56:10 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 19:56:10 - Started Application in 2.444 seconds (JVM running for 2.915)
+2021-01-27 19:56:10 - Hello World!
+2021-01-27 19:56:17 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:57:27 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 25665 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-27 19:57:27 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 19:57:27 - No active profile set, falling back to default profiles: default
+2021-01-27 19:57:27 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:57:27 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:57:29 - Tomcat initialized with port(s): 8080 (http)
+2021-01-27 19:57:29 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:57:29 - Starting service [Tomcat]
+2021-01-27 19:57:29 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 19:57:29 - Initializing Spring embedded WebApplicationContext
+2021-01-27 19:57:29 - Root WebApplicationContext: initialization completed in 1797 ms
+2021-01-27 19:57:30 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:57:30 - LiveReload server is running on port 35729
+2021-01-27 19:57:30 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-27 19:57:30 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 19:57:30 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 19:57:30 - Started Application in 3.192 seconds (JVM running for 3.782)
+2021-01-27 19:57:30 - Hello World!
+2021-01-27 19:58:05 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 20:00:50 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 25665 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-27 20:00:50 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 20:00:50 - No active profile set, falling back to default profiles: default
+2021-01-27 20:00:50 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 25756 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-27 20:00:50 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 20:00:50 - No active profile set, falling back to default profiles: default
+2021-01-27 20:00:50 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 20:00:50 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 20:00:50 - Tomcat initialized with port(s): 8080 (http)
+2021-01-27 20:00:50 - Starting service [Tomcat]
+2021-01-27 20:00:50 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 20:00:50 - Initializing Spring embedded WebApplicationContext
+2021-01-27 20:00:50 - Root WebApplicationContext: initialization completed in 342 ms
+2021-01-27 20:00:50 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 20:00:50 - LiveReload server is running on port 35729
+2021-01-27 20:00:50 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-27 20:00:50 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 20:00:50 - Started Application in 0.513 seconds (JVM running for 203.962)
+2021-01-27 20:00:50 - Hello World!
+2021-01-27 20:00:50 - Condition evaluation unchanged
+2021-01-27 20:00:51 - Tomcat initialized with port(s): 8080 (http)
+2021-01-27 20:00:51 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:00:51 - Starting service [Tomcat]
+2021-01-27 20:00:51 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 20:00:51 - Initializing Spring embedded WebApplicationContext
+2021-01-27 20:00:51 - Root WebApplicationContext: initialization completed in 1262 ms
+2021-01-27 20:00:51 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 20:00:52 - Unable to start LiveReload server
+2021-01-27 20:00:52 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-27 20:00:52 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:00:52 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-01-27 20:00:52 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 20:00:52 - Pausing ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:00:52 - Stopping service [Tomcat]
+2021-01-27 20:00:52 - Stopping ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:00:52 - Destroying ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:00:52 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-27 20:00:52 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-01-27 20:01:03 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 20:01:09 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 25774 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-27 20:01:09 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 20:01:09 - No active profile set, falling back to default profiles: default
+2021-01-27 20:01:09 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 20:01:09 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 20:01:10 - Tomcat initialized with port(s): 8080 (http)
+2021-01-27 20:01:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:01:10 - Starting service [Tomcat]
+2021-01-27 20:01:10 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 20:01:10 - Initializing Spring embedded WebApplicationContext
+2021-01-27 20:01:10 - Root WebApplicationContext: initialization completed in 1014 ms
+2021-01-27 20:01:11 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 20:01:11 - LiveReload server is running on port 35729
+2021-01-27 20:01:11 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-27 20:01:11 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:01:11 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 20:01:11 - Started Application in 1.978 seconds (JVM running for 2.385)
+2021-01-27 20:01:11 - Hello World!
+2021-01-27 20:01:14 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 20:10:18 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 25958 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-app)
+2021-01-27 20:10:18 - Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-27 20:10:18 - No active profile set, falling back to default profiles: default
+2021-01-27 20:10:18 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 20:10:18 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 20:10:20 - Tomcat initialized with port(s): 8080 (http)
+2021-01-27 20:10:20 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:10:20 - Starting service [Tomcat]
+2021-01-27 20:10:20 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 20:10:20 - Initializing Spring embedded WebApplicationContext
+2021-01-27 20:10:20 - Root WebApplicationContext: initialization completed in 1296 ms
+2021-01-27 20:10:20 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 20:10:20 - LiveReload server is running on port 35729
+2021-01-27 20:10:20 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-27 20:10:20 - Starting ProtocolHandler ["http-nio-8080"]
+2021-01-27 20:10:20 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-27 20:10:20 - Started Application in 2.476 seconds (JVM running for 2.973)
+2021-01-27 20:10:20 - Hello World!
+2021-01-27 20:12:41 - Shutting down ExecutorService 'applicationTaskExecutor'

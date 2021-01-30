@@ -13,7 +13,6 @@ public class OrgRdStdJavaSpringbootAppPlugin implements org.gradle.api.Plugin<or
         assertSupportedByCurrentGradleVersion();
                 target.getPluginManager().apply("org.rd.std.java-common");
         target.getPluginManager().apply("org.springframework.boot");
-        target.getPluginManager().apply("io.spring.dependency-management");
 
         try {
             Class<? extends BasicScript> precompiledScriptClass = Class.forName("precompiled_OrgRdStdJavaSpringbootApp").asSubclass(BasicScript.class);

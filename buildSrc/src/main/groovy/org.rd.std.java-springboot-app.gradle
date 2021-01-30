@@ -6,9 +6,8 @@ plugins {
     // Apply the common convention plugin for shared build configuration.
     id "org.rd.std.java-common"
 
-    // Springboot development.
+    // Springboot plugin.
     id "org.springframework.boot"
-    id "io.spring.dependency-management"
 }
 
 // Project description.
@@ -21,13 +20,22 @@ Put more details here ...
 ----------------------------------------------------------------
 """
 
+// Extra variables definitions.
+ext {
+    springBootVersion = "2.4.2"
+}
+
 // Dependencies : caution, WEB activated. We assume MSA.
 dependencies {
+
+    implementation platform("org.springframework.boot:spring-boot-dependencies:${springBootVersion}")
+
     developmentOnly     "org.springframework.boot:spring-boot-devtools"
 
     implementation      "org.springframework.boot:spring-boot-starter-actuator"
     implementation      "org.springframework.boot:spring-boot-starter-web"
-    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor:${springBootVersion}"
 
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude group: "org.junit.vintage:junit-vintage-engine"

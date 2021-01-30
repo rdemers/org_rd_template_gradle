@@ -1,6 +1,5 @@
 //
 // R. Demers; 2021.
-// Guide : https://docs.gradle.org/6.7.1/userguide/multi_project_builds.html
 //
 rootProject.name = "org_rd_template_gradle"
 

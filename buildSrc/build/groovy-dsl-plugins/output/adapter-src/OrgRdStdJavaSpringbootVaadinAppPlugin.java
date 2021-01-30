@@ -13,6 +13,7 @@ public class OrgRdStdJavaSpringbootVaadinAppPlugin implements org.gradle.api.Plu
         assertSupportedByCurrentGradleVersion();
                 target.getPluginManager().apply("org.rd.std.java-common");
         target.getPluginManager().apply("org.rd.std.java-springboot-app");
+        target.getPluginManager().apply("com.vaadin");
 
         try {
             Class<? extends BasicScript> precompiledScriptClass = Class.forName("precompiled_OrgRdStdJavaSpringbootVaadinApp").asSubclass(BasicScript.class);

@@ -11,9 +11,8 @@ plugins {
     id "eclipse"
 }
 
-//
+// Extra variables definitions.
 ext {
-    // Apache/Maven (POM.XML generation).
     groupId    = "org.rd.template.gradle" // groupId    - Project.getGroup()
     artifactId = "common-unset"           // artifactId - Project.getName()
     version    = "0.0.1-SNAPSHOT"         // version    - Project.getVersion()
