@@ -103,7 +103,6 @@ test {
 
 // Helper : print some information about sources.
 //          Just few examples for a custom task.
-
 task showProperties {
     doLast {
         println "-----------------------------------------------------------"

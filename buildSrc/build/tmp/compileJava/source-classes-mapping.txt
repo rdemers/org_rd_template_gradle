@@ -1,10 +1,10 @@
-OrgRdStdJavaAppPlugin.java
- OrgRdStdJavaAppPlugin
 OrgRdStdJavaSpringbootAppPlugin.java
  OrgRdStdJavaSpringbootAppPlugin
+OrgRdStdJavaSpringbootVaadinAppPlugin.java
+ OrgRdStdJavaSpringbootVaadinAppPlugin
 OrgRdStdJavaLibraryPlugin.java
  OrgRdStdJavaLibraryPlugin
 OrgRdStdJavaCommonPlugin.java
  OrgRdStdJavaCommonPlugin
-OrgRdStdJavaSpringbootVaadinAppPlugin.java
- OrgRdStdJavaSpringbootVaadinAppPlugin
+OrgRdStdJavaAppPlugin.java
+ OrgRdStdJavaAppPlugin

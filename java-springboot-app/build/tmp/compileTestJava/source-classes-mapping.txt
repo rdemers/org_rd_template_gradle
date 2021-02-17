@@ -1,2 +1,0 @@
-org/rd/template/gradle/springboot/config/ApplicationTests.java
- org.rd.template.gradle.springboot.config.ApplicationTests

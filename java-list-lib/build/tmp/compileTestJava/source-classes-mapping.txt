@@ -1,2 +1,0 @@
-org/rd/template/gradle/list/LinkedListTest.java
- org.rd.template.gradle.list.LinkedListTest
