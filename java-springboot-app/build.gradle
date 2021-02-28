@@ -3,8 +3,6 @@
 //
 plugins {
     id "org.rd.std.java-springboot-app"
-
-    id "org.springframework.boot"        version "${pluginSpringbootVersion}"
 }
 
 dependencies {

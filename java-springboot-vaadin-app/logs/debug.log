@@ -2302,3 +2302,217 @@ Generating a default one in 'target/index.ts'. Move it to the '/Users/rdemers/SD
 2021-01-27 20:23:39 - Shutting down ExecutorService 'applicationTaskExecutor'
 2021-01-27 20:23:39 - HikariPool-1 - Shutdown initiated...
 2021-01-27 20:23:39 - HikariPool-1 - Shutdown completed.
+2021-02-22 18:44:38 - HV000001: Hibernate Validator 6.1.7.Final
+2021-02-22 18:44:38 - Starting Application using Java 15.0.1 on RDemerss-MBP with PID 29040 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/bin/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-02-22 18:44:38 - No active profile set, falling back to default profiles: default
+2021-02-22 18:44:38 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-22 18:44:38 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-22 18:44:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-22 18:44:39 - Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2021-02-22 18:44:40 - Tomcat initialized with port(s): 8080 (http)
+2021-02-22 18:44:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-22 18:44:40 - Starting service [Tomcat]
+2021-02-22 18:44:40 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-22 18:44:40 - Initializing Spring embedded WebApplicationContext
+2021-02-22 18:44:40 - Root WebApplicationContext: initialization completed in 1937 ms
+2021-02-22 18:44:40 - HikariPool-1 - Starting...
+2021-02-22 18:44:40 - HikariPool-1 - Start completed.
+2021-02-22 18:44:40 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4a22da76-5bdd-43af-8adc-05e890697c0a'
+2021-02-22 18:44:40 - Search for VaadinAppShell took 38 ms
+2021-02-22 18:44:40 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-02-22 18:44:40 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 18:44:45 - Search for subclasses and classes with annotations took 4114 ms
+2021-02-22 18:44:45 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-02-22 18:44:45 - Visited 98 classes. Took 16 ms.
+2021-02-22 18:44:45 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-02-22 18:44:45 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-02-22 18:44:45 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-02-22 18:44:45 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-02-22 18:44:45 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-02-22 18:44:45 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-22 18:44:45 - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-22 18:44:45 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-22 18:44:45 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-22 18:44:45 - There are no connect endpoints to generate.
+2021-02-22 18:44:45 - Skipping `pnpm install` because the frontend packages are already installed in the folder '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules' and the hash in the file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-02-22 18:44:45 - Copying frontend resources from jar files ...
+2021-02-22 18:44:45 - Visited 14 resources. Took 51 ms.
+2021-02-22 18:44:45 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/./frontend' folder: 'styles/views/creditcardform/credit-card-form-view.css', please update your annotations.
+2021-02-22 18:44:45 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/./frontend' folder: 'styles/views/addressform/address-form-view.css', please update your annotations.
+2021-02-22 18:44:45 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.js
+2021-02-22 18:44:45 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.d.ts
+2021-02-22 18:44:45 - Starting webpack-dev-server
+2021-02-22 18:44:46 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 18:44:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-22 18:44:46 - LiveReload server is running on port 35729
+2021-02-22 18:44:46 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-22 18:44:46 - Running webpack to compile frontend resources. This may take a moment, please stand by...
+2021-02-22 18:44:46 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-02-22 18:44:47 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-22 18:44:47 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-22 18:44:47 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-22 18:44:47 - Started Application in 9.463 seconds (JVM running for 10.312)
+2021-02-22 18:44:47 - Generating demo data
+2021-02-22 18:44:47 - ... generating 100 Person entities...
+2021-02-22 18:44:48 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 18:44:48 - Initializing Servlet 'dispatcherServlet'
+2021-02-22 18:44:48 - Completed initialization in 3 ms
+2021-02-22 18:44:56 - Started webpack-dev-server. Time: 10779ms
+2021-02-22 18:45:00 - 
+Vaadin is running in DEBUG MODE.
+When deploying application for production, remember to disable debug features. See more from https://vaadin.com/docs/
+Using Vaadin 15+ bootstrap mode.
+ 'index.html' is not found from './frontend/index.html'.
+Generating a default one in 'target/index.html'. Move it to the './frontend' folder if you want to customize it.
+ 'index.ts' is not found from './frontend/index.ts'.
+Generating a default one in 'target/index.ts'. Move it to the './frontend' folder if you want to customize it.
+2021-02-22 18:45:01 - The number of beans implementing 'I18NProvider' is 0. Cannot use Spring beans for I18N, falling back to the default behavior
+2021-02-22 19:39:49 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m38s182ms).
+2021-02-22 20:23:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m44s366ms).
+2021-02-23 03:29:00 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h5m57s421ms).
+2021-02-23 12:58:20 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h28m49s953ms).
+2021-02-23 13:00:28 - Application shutdown requested.
+2021-02-23 13:00:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-23 13:00:28 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-02-23 13:00:28 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-02-23 13:00:28 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 13:00:28 - HikariPool-1 - Shutdown initiated...
+2021-02-23 13:00:28 - HikariPool-1 - Shutdown completed.
+2021-02-23 13:00:44 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-28 09:58:54 - HV000001: Hibernate Validator 6.1.7.Final
+2021-02-28 09:58:54 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 38118 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-02-28 09:58:54 - No active profile set, falling back to default profiles: default
+2021-02-28 09:58:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-28 09:58:54 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-28 09:58:55 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-28 09:58:55 - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2021-02-28 09:58:55 - Tomcat initialized with port(s): 8080 (http)
+2021-02-28 09:58:55 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-28 09:58:55 - Starting service [Tomcat]
+2021-02-28 09:58:55 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-28 09:58:56 - Initializing Spring embedded WebApplicationContext
+2021-02-28 09:58:56 - Root WebApplicationContext: initialization completed in 1611 ms
+2021-02-28 09:58:56 - HikariPool-1 - Starting...
+2021-02-28 09:58:56 - HikariPool-1 - Start completed.
+2021-02-28 09:58:56 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c2b6f3ca-6a13-42ec-88b5-dff9296432fd'
+2021-02-28 09:58:56 - Search for VaadinAppShell took 45 ms
+2021-02-28 09:58:56 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-02-28 09:58:56 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-28 09:59:00 - Search for subclasses and classes with annotations took 3742 ms
+2021-02-28 09:59:00 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-02-28 09:59:00 - Visited 98 classes. Took 17 ms.
+2021-02-28 09:59:00 - Added 5 default dependencies to main package.json
+2021-02-28 09:59:00 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/package.json.
+2021-02-28 09:59:00 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-02-28 09:59:00 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-02-28 09:59:00 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-02-28 09:59:00 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-02-28 09:59:00 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-02-28 09:59:00 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-28 09:59:00 - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-28 09:59:00 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-28 09:59:00 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-28 09:59:00 - There are no connect endpoints to generate.
+2021-02-28 09:59:00 - Skipping `pnpm install` because the frontend packages are already installed in the folder '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules' and the hash in the file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-02-28 09:59:00 - Copying frontend resources from jar files ...
+2021-02-28 09:59:01 - Visited 14 resources. Took 203 ms.
+2021-02-28 09:59:01 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/creditcardform/credit-card-form-view.css', please update your annotations.
+2021-02-28 09:59:01 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/addressform/address-form-view.css', please update your annotations.
+2021-02-28 09:59:01 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.js
+2021-02-28 09:59:01 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.d.ts
+2021-02-28 09:59:01 - Starting webpack-dev-server
+2021-02-28 09:59:01 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-28 09:59:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-28 09:59:01 - LiveReload server is running on port 35729
+2021-02-28 09:59:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-28 09:59:02 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-02-28 09:59:02 - Running webpack to compile frontend resources. This may take a moment, please stand by...
+2021-02-28 09:59:02 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-28 09:59:02 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-28 09:59:02 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-28 09:59:02 - Started Application in 8.492 seconds (JVM running for 9.009)
+2021-02-28 09:59:02 - Generating demo data
+2021-02-28 09:59:02 - ... generating 100 Person entities...
+2021-02-28 09:59:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-28 09:59:08 - Initializing Servlet 'dispatcherServlet'
+2021-02-28 09:59:08 - Completed initialization in 1 ms
+2021-02-28 09:59:08 - 
+Vaadin is running in DEBUG MODE.
+When deploying application for production, remember to disable debug features. See more from https://vaadin.com/docs/
+Using Vaadin 15+ bootstrap mode.
+ 'index.html' is not found from '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend/index.html'.
+Generating a default one in 'target/index.html'. Move it to the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder if you want to customize it.
+ 'index.ts' is not found from '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend/index.ts'.
+Generating a default one in 'target/index.ts'. Move it to the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder if you want to customize it.
+2021-02-28 09:59:09 - The number of beans implementing 'I18NProvider' is 0. Cannot use Spring beans for I18N, falling back to the default behavior
+2021-02-28 09:59:11 - Started webpack-dev-server. Time: 10713ms
+2021-02-28 09:59:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-28 09:59:25 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-02-28 09:59:25 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-02-28 09:59:25 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-28 09:59:25 - HikariPool-1 - Shutdown initiated...
+2021-02-28 09:59:25 - HikariPool-1 - Shutdown completed.
+2021-02-28 10:24:06 - HV000001: Hibernate Validator 6.1.7.Final
+2021-02-28 10:24:06 - Starting Application using Java 15.0.2 on RDemerss-MBP with PID 39014 (/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/build/classes/java/main started by rdemers in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app)
+2021-02-28 10:24:06 - No active profile set, falling back to default profiles: default
+2021-02-28 10:24:06 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-28 10:24:06 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-28 10:24:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-28 10:24:07 - Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2021-02-28 10:24:08 - Tomcat initialized with port(s): 8080 (http)
+2021-02-28 10:24:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-28 10:24:08 - Starting service [Tomcat]
+2021-02-28 10:24:08 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-28 10:24:08 - Initializing Spring embedded WebApplicationContext
+2021-02-28 10:24:08 - Root WebApplicationContext: initialization completed in 1687 ms
+2021-02-28 10:24:08 - HikariPool-1 - Starting...
+2021-02-28 10:24:08 - HikariPool-1 - Start completed.
+2021-02-28 10:24:08 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7874de36-8927-4d5f-9b52-1e7a2dbf76ee'
+2021-02-28 10:24:08 - Search for VaadinAppShell took 53 ms
+2021-02-28 10:24:08 - Using org.rd.template.vaadin.Application class for configuring `index.html` response
+2021-02-28 10:24:08 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-28 10:24:12 - Search for subclasses and classes with annotations took 3766 ms
+2021-02-28 10:24:12 - Starting dev-mode updaters in /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app folder.
+2021-02-28 10:24:12 - Visited 98 classes. Took 19 ms.
+2021-02-28 10:24:12 - Added 5 default dependencies to main package.json
+2021-02-28 10:24:12 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/package.json.
+2021-02-28 10:24:12 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/package.json.
+2021-02-28 10:24:12 - writing file /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/flow-frontend/form/package.json.
+2021-02-28 10:24:12 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.html'
+2021-02-28 10:24:12 - writing file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/index.ts'
+2021-02-28 10:24:12 - Parsing java files from [/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/src/main/java]
+2021-02-28 10:24:12 - Cannot deserialize session attribute [com.vaadin.flow.server.VaadinSession.springServlet] for session [49C528CE24A937254FCCE8DDB054200E]
+2021-02-28 10:24:13 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-28 10:24:13 - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-28 10:24:13 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-28 10:24:13 - There are no connect endpoints to generate.
+2021-02-28 10:24:13 - Skipping `pnpm install` because the frontend packages are already installed in the folder '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules' and the hash in the file '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/node_modules/.vaadin/vaadin.json' is the same as in 'package.json'
+2021-02-28 10:24:13 - Copying frontend resources from jar files ...
+2021-02-28 10:24:13 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-28 10:24:13 - Visited 14 resources. Took 185 ms.
+2021-02-28 10:24:13 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/creditcardform/credit-card-form-view.css', please update your annotations.
+2021-02-28 10:24:13 - Use the './' prefix for files in the '/Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/frontend' folder: 'styles/views/addressform/address-form-view.css', please update your annotations.
+2021-02-28 10:24:13 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.js
+2021-02-28 10:24:13 - Updated /Users/rdemers/SDK/scm/github/org_rd_template_gradle/java-springboot-vaadin-app/target/frontend/generated-flow-imports.d.ts
+2021-02-28 10:24:13 - Starting webpack-dev-server
+2021-02-28 10:24:13 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-28 10:24:14 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-28 10:24:14 - LiveReload server is running on port 35729
+2021-02-28 10:24:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-28 10:24:14 - Running webpack to compile frontend resources. This may take a moment, please stand by...
+2021-02-28 10:24:14 - Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-02-28 10:24:14 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-28 10:24:14 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-28 10:24:14 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-28 10:24:14 - Started Application in 8.848 seconds (JVM running for 9.408)
+2021-02-28 10:24:15 - Generating demo data
+2021-02-28 10:24:15 - ... generating 100 Person entities...
+2021-02-28 10:24:23 - Started webpack-dev-server. Time: 9619ms
+2021-02-28 10:24:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-28 10:24:29 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-02-28 10:24:29 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-02-28 10:24:29 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-28 10:24:29 - HikariPool-1 - Shutdown initiated...
+2021-02-28 10:24:29 - HikariPool-1 - Shutdown completed.

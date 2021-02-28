@@ -27,7 +27,6 @@ ext {
 
 // Dependencies : caution, WEB activated. We assume MSA.
 dependencies {
-
     implementation platform("org.springframework.boot:spring-boot-dependencies:${springBootVersion}")
 
     developmentOnly     "org.springframework.boot:spring-boot-devtools"

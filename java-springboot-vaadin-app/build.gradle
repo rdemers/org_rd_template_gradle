@@ -3,9 +3,6 @@
 //
 plugins {
     id "org.rd.std.java-springboot-vaadin-app"
-
-    id "com.vaadin"                      version "0.17.0.1"
-    id "org.springframework.boot"        version "2.4.1"
 }
 
 dependencies {
