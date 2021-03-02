@@ -6,6 +6,9 @@ plugins {
     // Java support.
     id "java"
 
+    // Maven support.
+    id "maven-publish"
+
     // IDE extension.
     id "idea"
     id "eclipse"

@@ -12,6 +12,7 @@ public class OrgRdStdJavaCommonPlugin implements org.gradle.api.Plugin<org.gradl
     public void apply(org.gradle.api.internal.project.ProjectInternal target) {
         assertSupportedByCurrentGradleVersion();
                 target.getPluginManager().apply("java");
+        target.getPluginManager().apply("maven-publish");
         target.getPluginManager().apply("idea");
         target.getPluginManager().apply("eclipse");
 
