@@ -94,6 +94,51 @@ dependencies {
     // implementation project(':shared')
 }
 
+// Generate a POM.XML file to be used with Apache/Maven.
+// task = generatePomFileForMavenJavaPublication.
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            pom {
+                from components.java
+
+                name        = "${groupId}.${artifactId}"
+                description = "description-unset"
+                url         = "url-unset"
+                
+                properties = [
+                    "prop.1" : "value.1",
+                    "prop.2" : "value.2"
+                ]
+
+                licenses {
+                    license {
+                        name = "The Apache License, Version 2.0"
+                        url  = "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                    }
+                }
+                developers {
+                    developer {
+                        id    = "RDemers"
+                        name  = "Réal Demers"
+                        email = "real.demers@gmail.com"
+                    }
+                }
+                scm {
+                    connection          = "scm-connection-unset"
+                    developerConnection = "scm-developerConnection-unset"
+                    url                 = "scm-url-unset"
+                }
+            }
+        }
+    }
+}
+
+// Destination for POM.XML.
+tasks.withType(GenerateMavenPom) {
+   destination = file("${projectDir}/pom.xml")
+}
+
 // Java JVM setup.
 tasks.withType(JavaCompile) {
     options.compilerArgs += ["-Xlint:deprecation", "-Xdoclint:none", "-Xlint:none", "-nowarn"]
